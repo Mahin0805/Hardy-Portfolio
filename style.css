@@ -115,3 +115,58 @@ header {
     line-height: 27px;
     padding: 18px 35px;
 }
+
+/* section 2 */
+
+.section-2 {
+    margin: 130px auto;
+    max-width: 1140px;
+    border-radius: 10px;
+    background-color: var(--theme-color);
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.sec-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sec-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.items {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.item :first-child {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(117, 117, 117);
+}
+
+.item :last-child {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(71, 71, 71);
+}
