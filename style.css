@@ -23,6 +23,7 @@
 
 }
 
+
 header {
     background-color: var(--theme-color);
 
@@ -78,7 +79,7 @@ header {
     margin-right: 30px;
 }
 
-.baner-content :first-child {
+.baner-content> :first-child {
     color: rgb(71, 71, 71);
     font-family: Open Sans;
     font-size: 45px;
@@ -105,8 +106,12 @@ header {
     width: 585px;
 }
 
-.baner-content :nth-child(5) {
+.contact {
     margin-left: 30px;
+    padding: 18px 35px;
+}
+
+.contact>button {
     color: var(--color);
     background-color: var(--theme-color);
     border-color: var(--color);
@@ -186,7 +191,6 @@ header {
 
 .cards {
     display: flex;
-    justify-content: space-between;
     gap: 24px;
 }
 
@@ -203,7 +207,7 @@ header {
     border: 1px dashed gray;
 }
 
-.cards>div :nth-child(2) {
+.cards div :nth-child(2) {
     color: rgb(24, 24, 24);
     font-family: Open Sans;
     font-size: 20px;
@@ -226,7 +230,7 @@ header {
 .section-3 {
     margin: 130px auto;
     max-width: 1140px;
-    
+
 }
 
 .section-3>h3 {
@@ -272,6 +276,54 @@ header {
 .office hr {
     margin-bottom: 30px;
 }
-.btn-container{
+
+.btn-container {
     text-align: center;
+}
+
+/* footer section */
+footer {
+    background-color: var(--theme-color);
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1140px;
+    height: 780px;
+    gap: 120px;
+}
+
+.connect {
+    max-width: 50%;
+    margin-top: 130px;
+}
+.connect img{
+    border: 1px dashed gray;
+}
+.message {
+    width: 50%;
+    margin-top: 130px;
+}
+
+form input[type=text] {
+    display: block;
+    width: 100%;
+    height: 64px;
+    border: none;
+    padding-left: 30px;
+}
+form input[type=email]{
+    display: block;
+    width: 100%;
+    height: 64px;
+    border: none;
+    padding-left: 30px;
+}
+form textarea{
+    display: block;
+    width: 100%;
+    height: 64px;
+    border: none;
+    padding: 18px 30px;
 }
